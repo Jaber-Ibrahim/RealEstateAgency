@@ -34,7 +34,10 @@ function appenData(data,start){
       </div>
       <div class="Homes__Card-description">
         <p>${data[i].description}</p>
-        <span><img src="./imgs/Clock.svg" alt="clock"> ${data[i].time}</span>
+        <span>
+         <img src="./imgs/Clock.svg" alt="clock">
+         <p>${data[i].time}</p>
+        </span>
       </div>
       <div class="Homes__Card-img">
         <img src=${data[i].img} alt="home">

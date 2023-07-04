@@ -78,7 +78,6 @@
     font-weight: var(--fw-700);
 }
 
-.Homes .Homes__Container .Homes__Card .Homes__Card-description{}
 .Homes .Homes__Container .Homes__Card .Homes__Card-description p ,
 .Homes .Homes__Container .Homes__Card .Homes__Card-description span{
     color: var(--clr-paragraph);
@@ -92,7 +91,7 @@
     align-items: center;
 }
 .Homes .Homes__Container .Homes__Card .Homes__Card-description span img{
-    margin-right: 6px;
+       transform: translate(25%,25%);
 }
 .Homes .Homes__Container .Homes__Card .Homes__Card-img {
     position: relative;
