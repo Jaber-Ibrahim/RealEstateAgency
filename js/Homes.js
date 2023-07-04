@@ -45,8 +45,7 @@ function appenData(data,start){
       </div>
       <div class="Homes__Card-address">
         <p>${data[i].address}</p>
-        <!-- <span><img src="./imgs/HeartStraight.svg" alt="Heart"></span> -->
-        <img src="./imgs/HeartStraight.svg" alt="Heart">
+        <img src=${data[i].heart} alt="Heart">
       </div>
     </div>
     
