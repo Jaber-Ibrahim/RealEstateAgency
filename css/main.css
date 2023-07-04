@@ -73,7 +73,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 4px;
-  width: max-content;
+  width: 175px;
   padding: 11px 20px;
   border-radius: 50px;
   background: var(--clr-primary);
@@ -94,6 +94,7 @@ body {
   font-size: 1.2rem;
   font-weight: var(--fw-700);
   text-transform: uppercase;
+  width: max-content;
 }
 
 @media(max-width:375px) {
