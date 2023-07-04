@@ -22,7 +22,7 @@
     background: #e4e5df;
     padding: 10px 40px;
     font-size: 16px;
-    font-family: var(--font-family);
+    
     font-weight: var(--fw-600);
     border: none;
     cursor: pointer;
@@ -38,7 +38,7 @@
   .footer-suport h3 {
     color: var(--clr-light);
     font-size: 20px;
-    font-family: var(--font-family);
+    
     font-weight: var(--fw-600);
     margin-bottom: 30px;
   }
@@ -60,13 +60,13 @@
     color: #d3d6d3;
     font-size: 16px;
     text-decoration: none;
-    font-family: var(--font-family);
+    
     font-weight: var(--fw-500);
   }
   .copy-right p {
     color: #d3d6d3;
     font-size: 12px;
-    font-family: var(--font-family);
+    
     font-weight: var(--fw-500);
     padding: 20px 0;
   }

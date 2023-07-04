@@ -47,7 +47,7 @@
 .questions .container .questionsDetails .questionsDetails-h1 {
    color: var(--clr-heading);
    font-size: 3.2rem;
-   font-weight: var(--fw-bold);
+   font-weight: var(--fw-700);
    margin-bottom: 24px;
 }
 
@@ -62,7 +62,7 @@
 .questions .container .questionsDetails .questionsDetails-h3 {
    color: var(--clr-heading);
    font-size: 2rem;
-   font-weight: var(--fw-bold);
+   font-weight: var(--fw-700);
    margin-bottom: 20px;
 }
 

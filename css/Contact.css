@@ -43,7 +43,6 @@
   }
   .info-contact-form {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     max-width: 100%;
     gap: 15px;
@@ -66,7 +65,7 @@
     border: none;
     color: #000;
     font-size: 13px;
-    font-family: var(--font-family);
+    
     line-height: 20px;
   }
   .form-contact form input,
@@ -91,7 +90,7 @@
   label {
     color: var(--clr-paragraph);
     font-size: 14px;
-    font-family: var(--font-family);
+    
     font-weight: var(--fw-600);
     line-height: 22px;
     display: block;
@@ -99,7 +98,7 @@
   label > span {
     color: #ff4d4f;
     font-size: 14px;
-    font-family: var(--font-family);
+    
     font-weight: var(--fw-600);
     line-height: 22px;
   }
@@ -125,7 +124,7 @@
     background: var(--clr-primary);
     color: var(--clr-light);
     font-size: 14px;
-    font-family: var(--font-family);
+    
     font-weight: var(--fw-500);
     cursor: pointer;
     margin: 10px 0;
@@ -137,21 +136,27 @@
     .contact-info {
       margin-top: 20px;
     }
+    .info-contact-form {
+      flex-direction: column;
+    }
+    .info-contact-form .info-name,
+    .info-contact-form .info-phone {
+      width: 100%;
+    }
   }
   .text-contact {
     color: var(--clr-heading);
     font-size: 32px;
-    font-family: var(--font-family);
+    
     font-style: normal;
-    font-weight: var(--fw-bold);
+    font-weight: var(--fw-700);
     line-height: normal;
   }
   @media (max-width: 1090px) {
     .text-contact {
       color: var(--clr-heading);
       font-size: 24px;
-      font-family: var(--font-family);
-      font-weight: var(--fw-bold);
+      font-weight: var(--fw-700);
     }
     .contact-info {
       max-width: 100%;
@@ -160,7 +165,6 @@
   .contact-paragraph {
     color: var(--clr-paragraph);
     font-size: 16px;
-    font-family: var(--font-family);
     font-weight: var(--fw-500);
     line-height: 27px;
     margin: 20px 0;
@@ -175,7 +179,7 @@
   .contact-info .work-hours h3 {
     color: var(--clr-heading);
     font-size: 20px;
-    font-family: var(--font-family);
+    
     font-style: normal;
     font-weight: var(--fw-600);
     line-height: 27px;
@@ -186,7 +190,7 @@
   .contact-info .work-hours p {
     color: var(--clr-primary);
     font-size: 16px;
-    font-family: var(--font-family);
+    
     font-style: normal;
     font-weight: var(--fw-600);
     line-height: 24px;

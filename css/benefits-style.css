@@ -24,7 +24,7 @@
     text-align: center;
     color: var(--clr-heading);
     font-size: 3.2rem;
-    font-weight: var(--fw-bold);
+    font-weight: var(--fw-700);
     margin-bottom: 12px;
 }
 
@@ -57,7 +57,7 @@
 .benefits .container .benefits-cards .card .details .details-h1{
     color: var(--clr-heading);
     font-size: 22px;
-    font-weight: var(--fw-bold);
+    font-weight: var(--fw-700);
     margin-bottom: 16px;
 }
 .benefits .container .benefits-cards .card .details .details-p{
@@ -103,7 +103,6 @@
 }
     .benefits .container .benefits-cards .card .details .details-h1{
         font-size: 2rem;
-       
     }
 }
 
