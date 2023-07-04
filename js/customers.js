@@ -13,11 +13,10 @@ if (index >= 0) {
 
 
 let myInterval = setInterval(() => {
-  console.log(index)
   index--;
   Swipper.style.transform = `translate(${20*index}%)`;
   myButtonLeft.classList.remove("deactive");
-  if (index <= -4) {
+  if (index <= -3) {
     myButtonRight.classList.add("deactive");
     index = 1;
   }
@@ -39,7 +38,6 @@ myButtonRight.addEventListener("click" , () => {
       myButtonRight.classList.add("deactive");
     }
     Swipper.style.transform = `translate(${20*index}%)`;
-    // console.log("media")
 } 
 
 else {
@@ -48,14 +46,8 @@ else {
     myButtonRight.classList.add("deactive");
   }
   Swipper.style.transform = `translate(${20*index}%)`;
-  // console.log("ggggggggg")
-  // console.log(index)
-  // console.log(index*20)
-
 }
 
-    
-    
 })
 myButtonLeft.addEventListener("click" , () => {
   index++;
@@ -64,8 +56,5 @@ myButtonLeft.addEventListener("click" , () => {
       myButtonLeft.classList.add("deactive");
     }
     Swipper.style.transform = `translate(${20*index}%)`;
-    // console.log("ggggggggg")
-    // console.log(index)
-    // console.log(index*20)
   })
 
