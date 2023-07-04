@@ -1,0 +1,211 @@
+/* Start hero */
+.MainHero {
+    background-image: url("./../imgs/hero.png");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+.MainHero::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--clr-overlay);
+}
+  .MainHero nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    z-index: 1111;
+  }
+  .MainHero nav.scrolling {
+    background-color: var(--clr-overlay-darker);
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    left: 0;
+  }
+  .MainHero nav .Bars {
+    display: none;
+  }
+  .MainHero nav .Info {
+    flex-basis: 70%;
+    display: flex;
+    justify-content: space-between;
+    transition: all var(--main-transition);
+  }
+  .MainHero nav .List {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 50%;
+  }
+  .MainHero nav .List .List__Li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    cursor: pointer;
+  }
+  
+  .MainHero nav .List .List__Li .List__Li_A {
+    color: var(--clr-light);
+    font-size: 1.4rem;
+    font-weight: var(--fw-600);
+    line-height: 20px;
+  }
+
+  .MainHero nav .AddAccount {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-basis: 30%;
+    gap: 8px;
+  }
+  @media(max-width : 1133px) {
+    .MainHero nav .Bars {
+      display: block;
+      cursor: pointer;
+    }
+    .MainHero nav .List {
+      flex-direction: column;
+    }
+    .MainHero nav .Info {
+    position: fixed;
+    flex-direction: column;
+    top: 60px;
+    left: -200%;
+    height: calc(100vh - 60px);
+    justify-content: space-evenly;
+    background-color: var(--clr-overlay-darker);
+    width: 100%;
+    }
+    .MainHero nav .Info.active {
+        left: 0;
+    }
+    .MainHero nav .List .List__Li .List__Li_A {
+      color: var(--clr-light);
+      font-size: 1.4rem;
+      font-weight: var(--fw-600);
+      line-height: 20px;
+    }
+    .MainHero nav .AddAccount {
+      flex-direction: column;
+      justify-content: normal;
+    }
+    .MainHero nav .AddAccount a:first-child {
+      margin-bottom: 40px;
+    }
+  }
+  .MainHero .Intro {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: max-content;
+    position: relative;
+    transition: all var(--main-transition);
+  }
+
+
+.MainHero .Intro h1 {
+    font-size: 6.4rem;
+    font-weight: var(--fw-700);
+    color: var(--clr-light);
+    text-transform: capitalize;
+    margin-bottom: 2.4rem;
+}
+.MainHero .Intro p {
+    font-weight: var(--fw-500);
+    font-size: 1.6rem;
+    color: var(--clr-light);
+    margin-bottom: 6.4rem;
+    text-align: center;
+  }
+  .MainHero .Intro .Search {
+    display: inline-flex;
+}
+  .MainHero .Intro .Search p {
+    background-color: var(--clr-gray);
+    border-radius: var(--br-large) 0 0 var(--br-large);
+    padding: 2rem 2.7rem;
+    color: var(--clr-paragraph);
+    font-size: 1.6rem;
+    font-weight: var(--fw-500);
+    line-height: 20px;
+    text-transform: capitalize;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.MainHero .Intro .Search input {
+    border: none;
+    flex: 1;
+    outline: none;
+    color: var(--clr-dark-gray);
+    font-size: 1.4rem;
+  }
+  .MainHero .Intro .Search input::placeholder {
+    color: var(--clr-dark-gray);
+    font-size: 1.4rem;
+  }
+.MainHero .Intro .Search-icon {
+    cursor: pointer;
+    background-color: var(--clr-primary);
+    padding: 2rem 2.7rem;
+    border-radius: 0 var(--br-large) var(--br-large) 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media(max-width : 1133px) {
+    .MainHero .Intro.deactive {
+        display: none;
+  }
+  }
+  @media(max-width : 1000px) {
+    .MainHero .Intro {
+        width: 100%;
+        text-align: center;
+    }
+
+    .MainHero .Intro h1 {
+        font-size: 4rem;
+    }
+    .MainHero .Intro p {
+        line-height: 24px;
+      }
+      .MainHero .Intro .Search p {
+        padding: 2rem 0.5rem;
+        font-size: 1.2rem;
+    }
+    .MainHero .Intro .Search input {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        font-size: 1.2rem;
+      }
+      .MainHero .Intro .Search input::placeholder {
+        font-size: 1.2rem;
+      }
+    .MainHero .Intro .Search-icon {
+        background-color: var(--clr-light);
+        padding: 2rem 2.7rem;
+        border-radius: 0 var(--br-large) var(--br-large) 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  }
+  /* End hero */
+  
+  
+  
+  

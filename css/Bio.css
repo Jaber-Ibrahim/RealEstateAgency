@@ -1,0 +1,72 @@
+.Bio {
+    padding-bottom: 54px;
+}
+.Bio .Bio__Container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 54px;
+    padding-top: 7.2rem;
+    padding-bottom: 7.2rem;
+}
+.Bio .Bio__Info {
+    flex-basis: 44.3%;
+    flex-basis: 46%;
+}
+.Bio .Bio__Info .Bio__Info-title{
+    color: var(--clr-primary);
+    font-size: 1.3rem;
+    font-weight: var(--fw-600);
+    padding-left: 76px;
+    margin-bottom: 12px;
+    position: relative;
+}
+.Bio .Bio__Info .Bio__Info-title-line {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    background-color: var(--clr-primary);
+    transform: translateY(-50%);
+    margin-right: 16px;
+}
+.Bio .Bio__Info h1 {
+    color: var(--clr-heading);
+    font-size: 3.2rem;
+    font-weight: var(--fw-700);
+    margin-bottom: 24px;
+}
+.Bio .Bio__Info p {
+    margin-bottom: 32px;
+    color: var(--clr-paragraph);
+    font-size: 1.6rem;
+    font-weight: var(--fw-500);
+    line-height: 32px;
+}
+.Bio .Bio__Img {
+    flex: 1;
+    
+}
+.Bio .Bio__Img img{
+    width: 100%;
+    border-radius: var(--br-normal);
+}
+
+@media(max-width:1092px) {
+    .Bio .Bio__Container {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    .Bio .Bio__Container:last-child {
+        flex-direction: column-reverse;
+    }
+    .Bio .Bio__Info h1 {
+        font-size: 2.4rem;
+    }
+    .Bio .Bio__Img {
+        text-align: center;
+    }
+    .Bio .Bio__Img img {
+        max-width: 600px;
+    }
+}

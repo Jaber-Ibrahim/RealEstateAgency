@@ -1,0 +1,104 @@
+
+
+
+/* End of rules */
+/* @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,500;0,600;0,700;1,800&display=swap'); */
+
+:root {
+  /* colors */
+  --clr-primary:          #27563A;
+  --clr-primary-dark:     #213123;
+  --clr-light:            #fff;
+  --clr-gray:             #E5E5E5;
+  --clr-dark-gray:        #777;
+  --clr-light-gray:       #eee;
+  --clr-overlay :         rgba(0, 0, 0, 0.5);
+  --clr-overlay-darker :  rgba(0, 0, 0, 0.7);
+  --clr-heading:          #08110C;
+  --clr-sub-heading:      #141413;
+  --clr-paragraph:        #313131;
+  --clr-black:            #000;
+
+
+
+  /* font family */
+  --font-family: 'Plus Jakarta Sans', sans-serif;;
+
+  /* font weights */
+  --fw-700: 700;
+  --fw-600: 600;
+  --fw-500: 500;
+
+  /* border radius */
+  --br-large: 50px;
+  --br-normal: 20px;
+  /* delay time */
+  --main-transition : .5s;
+}
+
+*, 
+*::after, 
+*::before {
+  /* outline: 2px solid red; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+  font-family: var(--font-family);
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+}
+body {
+  min-height: 100vh;
+
+}
+
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+@media(max-width:375px) {
+  .container {
+    width: 91.46%;
+  }
+}
+
+.main-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  width: max-content;
+  padding: 11px 20px;
+  border-radius: 50px;
+  background: var(--clr-primary);
+  color: var(--clr-light);
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  font-weight: var(--fw-600);
+  line-height: 2rem;
+}
+.main-btn.transparent {
+  background-color: transparent;
+  border: 1px solid var(--clr-light);
+  min-width: max-content;
+}
+.main-btn.small {
+  height: 24px;
+  padding: 4px 8px;
+  font-size: 1.2rem;
+  font-weight: var(--fw-700);
+  text-transform: uppercase;
+}
+
+@media(max-width:375px) {
+  .main-btn {
+    padding: 11px 24px;
+  }
+}
+/* End of rules */

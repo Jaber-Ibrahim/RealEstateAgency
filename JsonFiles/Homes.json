@@ -1,0 +1,44 @@
+{"homes" : [
+    {
+        "price"       : "250,000",
+        "description" : "4beds, 1bath, 1550sqft, Eco freiendly",
+        "time"        : "2 years ago",   
+        "img"         : "./../imgs/home1.png",
+        "address"     : "Plot 16 Chief Nwuke Street Trans Amadi Industrial Layout"
+    },
+    {
+        "price"       : "200,000",
+        "description" : "3beds, 1bath, 1333sqft, Eco freiendly",
+        "time"        : "3 years ago",   
+        "img"         : "./../imgs/home2.png",
+        "address"     : "44, Arinola Street, Ori Okuta. Ikorodu"
+    },
+    {
+        "price"       : "350,000",
+        "description" : "5beds, 2bath, 5000sqft, Eco freiendly",
+        "time"        : "1 years ago",   
+        "img"         : "./../imgs/home3.png",
+        "address"     : "5 Olaide Tomori Street, off Simbiat Abiola Road, Ikeja"
+    },
+    {
+        "price"       : "450,000",
+        "description" : "4beds, 1bath, 1913sqft, Eco freiendly",
+        "time"        : "1.5 years ago",   
+        "img"         : "./../imgs/home4.png",
+        "address"     : "31,Herbert Macaulay Way, Sabo, Yaba"
+    },
+    {
+        "price"       : "250,000",
+        "description" : "7beds, 3bath, 1334sqft, Eco freiendly",
+        "time"        : "2 years ago",   
+        "img"         : "./../imgs/home5.png",
+        "address"     : "5, Dele Ogundele Street, Oregun, Ikeja"
+    },
+    {
+        "price"       : "195,000",
+        "description" : "2beds, 2bath, 1000sqft, Eco freiendly",
+        "time"        : "4 years ago",   
+        "img"         : "./../imgs/home6.png",
+        "address"     : "10 Lekki Phase 1, P.O. Box 10141, Marina"
+    }
+]}

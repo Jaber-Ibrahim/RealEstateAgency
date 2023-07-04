@@ -1,0 +1,119 @@
+.benefits {
+    background-color: var(--clr-gray);
+    padding: 72px 0;
+ 
+}
+.benefits .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.benefits .container .head {
+    margin-bottom: 36px;
+    padding: 0 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.benefits .container .head .head-h1 {
+    text-align: center;
+    color: var(--clr-heading);
+    font-size: 3.2rem;
+    font-weight: var(--fw-bold);
+    margin-bottom: 12px;
+}
+
+.benefits .container .head .head-p {
+    text-align: center;
+    color: var(--clr-heading);
+    font-size:1.6rem;
+    font-weight: var( --fw-500);
+}
+
+.benefits .container .benefits-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(419px,1fr));
+    gap: 19px;
+}
+
+.benefits .container .benefits-cards .card{
+    background-color: var(--clr-light);
+    position: relative;
+    
+    
+   
+}
+.benefits .container .benefits-cards .card .details{
+    padding: 46px 32px;
+    margin-bottom: 240px;
+    line-height: 26px;
+   
+}
+.benefits .container .benefits-cards .card .details .details-h1{
+    color: var(--clr-heading);
+    font-size: 22px;
+    font-weight: var(--fw-bold);
+    margin-bottom: 16px;
+}
+.benefits .container .benefits-cards .card .details .details-p{
+    color: var(--clr-heading);
+    font-size: 1.4rem;
+    font-weight: var( --fw-500);
+    
+}
+.benefits .container .benefits-cards .card .card-img{
+    width: 100%;
+    height: 240px;
+    position: absolute;
+    bottom: 0;
+   
+    
+}
+
+@media only screen and (max-width: 1440px) {
+    .benefits .container .benefits-cards{
+        grid-template-columns: repeat(auto-fit, minmax(375px,1fr));
+       
+    }
+}
+@media only screen and (max-width: 1292px) {
+    .benefits .container .benefits-cards{
+        grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+       
+    }
+}
+@media only screen and (max-width: 1023px) {
+    .benefits .container .head {
+        padding: 0 ;
+        
+    }
+    .benefits .container .head .head-h1 {
+        font-size: 2.4rem;  
+    }
+    
+.benefits .container .head .head-p {
+ 
+    font-size:1.4rem;
+
+}
+    .benefits .container .benefits-cards .card .details .details-h1{
+        font-size: 2rem;
+       
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .benefits .container .benefits-cards{
+        grid-template-columns: repeat(auto-fit, minmax(343px,1fr));
+       
+    }
+    .benefits .container .benefits-cards .card .details{
+        padding: 46px 16px;
+    
+    }
+}
