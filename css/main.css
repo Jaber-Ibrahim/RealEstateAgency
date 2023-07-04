@@ -97,9 +97,9 @@ body {
   width: max-content;
 }
 
-/* @media(max-width:500px) {
+@media(max-width:900px) {
   .main-btn {
-    padding: 11px 26px;
+    width: max-content;
   }
-} */
+}
 /* End of rules */

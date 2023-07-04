@@ -221,7 +221,7 @@
     left: 0;
   }
   .contact-info .work-hours::before {
-    content: url(../imgs/Clock.svg);
+    content: url(../imgs/GreenClock.svg);
     position: absolute;
     top: 0;
     left: 0;
