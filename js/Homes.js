@@ -8,7 +8,7 @@ lis.forEach(li => {
     })
 });
 
-let myUrl = ("./../JsonFiles/Homes.json");
+let myUrl = ("JsonFiles/Homes.json");
 async function fetchcards() {
     await fetch(myUrl)
     .then((result) => result.json())
