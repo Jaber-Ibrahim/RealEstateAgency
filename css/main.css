@@ -73,8 +73,9 @@ body {
   justify-content: center;
   align-items: center;
   gap: 4px;
-  width: 175px;
+  width: max-content;
   padding: 11px 20px;
+  padding: 11px 26px;
   border-radius: 50px;
   background: var(--clr-primary);
   color: var(--clr-light);
@@ -86,7 +87,7 @@ body {
 .main-btn.transparent {
   background-color: transparent;
   border: 1px solid var(--clr-light);
-  min-width: max-content;
+  width: max-content !important;
 }
 .main-btn.small {
   height: 24px;
@@ -99,7 +100,7 @@ body {
 
 @media(max-width:375px) {
   .main-btn {
-    padding: 11px 24px;
+    padding: 11px 26px;
   }
 }
 /* End of rules */
